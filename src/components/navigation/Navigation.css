@@ -1,0 +1,54 @@
+
+
+.nav-container {
+    flex-basis: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+nav {
+
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    flex-basis: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-menu-link {
+    border-bottom: 1px solid white;
+
+}
+
+.default-menu-link {
+    border-bottom: none;
+}
+
+.logout {
+    color: orangered;
+    background-color: #282c34;
+    margin-left: 15px;
+    border-radius: 15px;
+}

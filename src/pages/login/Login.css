@@ -1,0 +1,29 @@
+.login{
+    color: white;
+    background-color: black;
+    padding-bottom: 500px;
+    padding-top: 100px;
+}
+.button-login{
+
+    color: chartreuse;
+    background-color: #282c34;
+    border-radius: 15px;
+    padding: 10px;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #282c34;
+    color: white;
+    margin-bottom: 10px;
+}
+label{
+    color: chartreuse;
+    font-size: large;
+
+}
+h1 {
+    color: chartreuse;
+}
